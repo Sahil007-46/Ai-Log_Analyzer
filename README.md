@@ -28,22 +28,6 @@ An enterprise-grade Retrieval-Augmented Generation (RAG) pipeline designed to in
 * **Embeddings:** `all-MiniLM-L6-v2` (Sentence Transformers)
 * **Dependency Management:** `uv` / `pyproject.toml`
 
-## 📁 Repository Structure
-
-\`\`\`text
-├── pyproject.toml               # Project metadata and dependencies
-├── uv.lock                      # Exact dependency versions
-├── llm_config.yaml              # Configuration for LLMs and embeddings
-├── resource_categorization.yaml # Business logic for incident detection
-├── src/
-│   ├── langchain_rag.py         # Core RAG orchestration 
-│   ├── vector_store.py          # ChromaDB integration
-│   ├── chunker.py               # Semantic log splitting logic
-│   ├── embeddings.py            # Embedding model initialization
-│   └── report_generator.py      # Automated classification output
-└── sample_incident_report.html  # Visual proof of automated output
-\`\`\`
-
 ## ⚙️ Getting Started
 
 ### Prerequisites
